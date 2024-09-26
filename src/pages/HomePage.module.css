@@ -1,0 +1,41 @@
+.container {
+  width: 500px;
+  height: 180px;
+  background-color: #a7bcb9;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.header {
+  font-size: 2rem;
+  color: #24527a;
+  margin-bottom: 20px;
+}
+
+.showUsers {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #24527a;
+  margin-bottom: 20px;
+}
+
+.showModal {
+  font-size: 1rem;
+  border: none;
+  background-color: #5dacbd;
+  color: #24527a;
+  width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.showModal:hover {
+  font-size: 1.1rem;
+}
