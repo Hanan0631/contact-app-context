@@ -69,13 +69,12 @@ const EditUser = () => {
             />
           </li>
         ))}
-      <Link
+      <button
         className={styles.editButton}
-        to={!users.error.length && "/users"}
         onClick={editHandler}
       >
         Edit User
-      </Link>
+      </button>
       {!!users.error && <p className={styles.error}>{users.error}</p>}
     </div>
   );
